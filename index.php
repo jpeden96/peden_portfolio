@@ -188,7 +188,7 @@
       <img src="img/portThumbs/flex-500x500.jpg" alt="SMH Thumbnail" class ="thumbs bottomRow">
     </div>
   </div> <!-- end thumbrow 2-->
-
+<!-- -->
 </div><!-- end all contents -->
     </div>
 
