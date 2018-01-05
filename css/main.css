@@ -14,7 +14,6 @@ p {
 
 .navbar{
   font-size: 25px;
-  width: 100%;
   background-color: black;
 }
 h1 {
@@ -36,11 +35,6 @@ h3 {
 
 .navbar-collapse {
   background-color: black;
-  /*height: 100px;*/
-}
-
-.navbar-default .navbar-toggle {
-  /*border-color: white */
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -74,8 +68,12 @@ h3 {
   height: 100px;
 }
 
+
 .header {
-  background: url('../img/header-img.png') no-repeat center center;
+  content: ' ';
+    display: block;
+    position: absolute;
+  background: url('../img/header-img.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,7 +84,8 @@ h3 {
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: .8;
+    opacity: .4;
+    z-index: 1;
 }
 
 .header-overlay
@@ -95,9 +94,15 @@ h3 {
   background: rgba(25, 25, 25, .8);
   padding: 50px;
   padding-top: 100px;
-  z-index: 1;
+  position: absolute;
+  z-index: 100;
 
 }
+
+#home {
+  position: relative;
+}
+
 
 .gradient {
   z-index: 2;
@@ -148,15 +153,13 @@ background-size: 1800% 1800%;
   padding: 20px;
 }
 
-.about-pic {
-  height: 200px;
-}
 
 @media screen and (min-width: 768px) {
   .about-text {
     position: absolute;
   }
   }
+
 
 .aboutText
 {
@@ -184,7 +187,7 @@ background-size: 1800% 1800%;
 
 
 .skills {
-  background: url('../img/skills-bg.jpg') no-repeat center center;
+  background: url('../img/skills-bg-complete.jpg') no-repeat center center;
   /*content: ' ';
   display: block;
   position: absolute;*/
@@ -193,11 +196,13 @@ background-size: 1800% 1800%;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
+  padding-bottom: 40px;
   /*opacity: 0.2; */
 }
 
@@ -206,26 +211,38 @@ background-size: 1800% 1800%;
   color: black;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .skillsOverlay{
     position: absolute;
   }
-  #whiteOverlay {
-    position: absolute;
-  }
+
+  .skills {
+    height: inherit;
+    padding: 0px;
+    }
+    #whiteOverlay {
+      position: absolute;
+      margin-top: 40px;
+        background: rgb(250, 250, 250, .8);
+        background: rgba(250, 250, 250, .8);
+    }
+    .skillsOverlay{
+        background: rgb(25, 25, 25, .8);
+        background: rgba(25, 25, 25, .8);
+        margin-bottom: 0px;
+    }
   }
 
 .skillsOverlay
 {
-  background: rgb(25, 25, 25, .8);
-  background: rgba(25, 25, 25, .8);
+  height: inherit;
+  margin-bottom: 10px;
 }
 #whiteOverlay
 {
-  background: rgb(250, 250, 250, .8);
-  background: rgba(250, 250, 250, .8);
   padding: 20px;
-  margin-top: 20px;
+    background: rgb(250, 250, 250, .4);
+    background: rgba(250, 250, 250, .4);
 }
 
 .topSkills
@@ -242,7 +259,6 @@ background-size: 1800% 1800%;
   font-family: 'Merriweather', sans-serf;
   color: black;
   padding-top: 5px;
-  text-align: left;
   font-size: 1.05em;
 }
 
@@ -260,17 +276,18 @@ background-size: 1800% 1800%;
 .portfolio p{
   color: black;
 }
-
+/*
 .portContent {
-  background-color: black;
+  background-color: white;
 }
-
+*/
 
 .thumbs
 {
   width: 100%;
   height: 100%;
   margin-top: 30px;
+  border: 2px solid black;
 }
 
 .bottomRow {
@@ -304,11 +321,34 @@ background-size: 1800% 1800%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 } */
+
+.contact {
+  background: url('../img/contact-bg-complete.jpg') no-repeat center center;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  label {
+    font-size: .5em;
+  }
+  }
 .contact
 {
   padding: 40px;
 }
 
+.contact-text {
+  margin-bottom: 20px;
+}
 label {
   font-size: 1.3em;
 }
@@ -317,8 +357,8 @@ input, textarea {
   margin-top: 10px;
   width: 100%;
   margin-bottom: 20px;
-  background-color: black;
   border: none;
+  background-color: rgba(255, 0, 0, 0.0);
   border-bottom: 2px solid white;
 }
 

@@ -72,7 +72,8 @@
         <div class="row">
           <div class="col-sm-5 header-overlay">
             <img src="img/jpg-logo.png" alt="JPG Logo" id="header-logo">
-            <h2>Print & Digital Design</h2>
+            <h2>JULIA PEDEN GRAPHICS</h2>
+            <h3>Print & Digital Design</h3>
           </div><!--end col-sm-5-->
         </div> <!--end .row-->
       </div>
@@ -81,73 +82,80 @@
       <!--<div class="container"> -->
 
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6 aboutText">
-            <h1>ABOUT</h1><br>
-            <p>Welcome to my online portfolio.</p><p>My name is Julia Peden. I am a graphic designer and motion artist. I started off as a visual artist and used those skills to transition into a digital platform. I study Media, Information, and Technoculture at Western University which provides me with a strong theoretical background on the industry of media and technology. I also study Interactive Media Design at Fanshawe College which teaches me hands-on skills required for graphic and motion design.</p><p>I enjoy working in groups to conceptualize ideas and designs, but I also work effectively on my own. I love to be challenged and am always thriving to learn new skills to stay ahead of the industry.</p>
+          <div class="col-xs-10 col-xs-push-1 aboutText hidden-md hidden-lg">
+            <h1>ABOUT</h1>
+          </div>
+          <div class="col-xs-8 col-xs-push-2 hidden-md hidden-lg">
+            <img src="img/about-sm.jpg" alt="About Portrait small" class="img-responsive about-pic">
+          </div>
+
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 aboutText">
+            <h1 class="hidden-xs hidden-sm">ABOUT</h1><br>
+            <p>Welcome to my online portfolio.</p><p>My name is Julia Peden. I am a graphic designer and motion artist. I started off as a visual artist and used those skills to transition into a digital platform. I study Media, Information, and Technoculture at Western University which provides me with a strong theoretical background on the industry of media and technology. I also study Interactive Media Design at Fanshawe College which teaches me hands-on skills required for graphic and motion design. I hope you enjoy going through my portfolio!</p>
 
             <h1 class="subHeader">INTERESTS</h1> <br>
 
-            <div class="col-sm-4 col-md-3 facts">
-              <img src="img/fact1.png" alt="fact1" class="fact-img">
+            <div class="col-xs-4 col-md-3 facts">
+              <img src="img/fact1.png" alt="fact1" class="fact-img img-responsive">
               <p class="fact-text">Ultimate Frisbee</p>
             </div>
-            <div class="col-sm-4 col-md-3 facts">
-              <img src="img/fact2.png" alt="fact2" class="fact-img">
+            <div class="col-xs-4 col-md-3 facts">
+              <img src="img/fact2.png" alt="fact2" class="fact-img img-responsive">
               <p class="fact-text">Craft Beer<br>Enthusiast</p>
             </div>
-            <div class="col-sm-4 col-md-3 facts">
-              <img src="img/fact3.png" alt="fact3" class="fact-img">
+            <div class="col-xs-4 col-md-3 facts">
+              <img src="img/fact3.png" alt="fact3" class="fact-img img-responsive">
               <p class="fact-text">Dog Lover</p>
             </div>
           </div>
-          <div class="col-xs-6 col-sm-4 col-md-5 about-pic">
-              <img src="img/about-gradient.png" alt="gradient" id="about-gradient">
-              <img src="img/about.png" alt="About Portrait">
+          <div class="col-xs-6 col-sm-4 col-md-5 about-pic hidden-sm hidden-xs">
+              <!--<img src="img/about-gradient.png" alt="gradient" id="about-gradient" class="img-responsive"> -->
+              <img src="img/about-complete.jpg" alt="About Portrait" class="img-responsive">
           </div>
         </div>
     <!-- </div> -->
   </section>
 <section class="skills container" id="skills">
-<!-- <div class="container bgGradient"> -->
+<div class="bgGradient">
   <div class="row">
     <div class="col-xs-12 col-md-5 skillsOverlay">
-    <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-2 skillsText">
+    <div class="col-md-6 col-md-push-2 skillsText">
       <h1>SKILLS</h1>
       <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas, Branding, Marketing, Design, and Motion. </p>
   </div>
 </div>
 </div>
 <div class="row">
-    <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-4" id="whiteOverlay">
+    <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-4" id="whiteOverlay">
 
       <div class="row topSkills">
-      <div class="col-sm-6 skillsItems">
-        <img src="img/branding.png" alt="Branding Icon">
+      <div class="col-xs-6 skillsItems">
+        <img src="img/branding.png" alt="Branding Icon" class="thumb">
         <h3>BRANDING</h3>
         <ul><li>Brand Style Guide</li><li>Event & Initiative Branding</li><li>Brand Development</li></ul>
       </div>
-      <div class="col-sm-6 skillsItems">
-        <img src="img/marketing.png" alt="Marketing Icon">
+      <div class="col-xs-6 skillsItems">
+        <img src="img/marketing.png" alt="Marketing Icon" class="thumb">
         <h3>MARKETING</h3>
         <ul><li>Social Media Strategies</li><li>Print & Web Advertising</li><li>Campaign Planning</li></ul>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-6 skillsItems">
-        <img src="img/design.png" alt="Design Icon">
+      <div class="col-xs-6 skillsItems">
+        <img src="img/design.png" alt="Design Icon" class="thumb">
         <h3>DESIGN</h3>
         <ul><li>Logo Design</li><li>Illustrations</li><li>Print & Web Design</li></ul>
       </div>
       <div class="col-sm-6 skillsItems">
-        <img src="img/motion.png" alt="Motion Icon">
+        <img src="img/motion.png" alt="Motion Icon" class="thumb">
         <h3>MOTION</h3>
         <ul><li>Live Action Videos</li><li>Typographic Animations</li><li>2D Animations</li></ul>
       </div>
     </div>
     </div>
   </div>
-  <!-- </div> -->
+  </div>
 </section>
 
 <section class="portfolio container" id="portfolio">
@@ -158,7 +166,7 @@
 </div>
 
     <div class="row">
-    <div class="col-sm-12 col-md-7 col-md-push-1 portContent thumbRow">
+    <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-1 portContent thumbRow">
       <div class="col-xs-6 col-md-4 portfolioPieces">
         <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" class="thumbs">
       </div>
@@ -171,27 +179,15 @@
 
   <div class="thumbRow">
     <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" class ="thumbs">
+      <img src="img/portThumbs/tc-500x500.jpg" alt="IMWell Thumbnail" class ="thumbs bottomRow">
     </div>
     <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/eyeball-500x500.jpg" alt="Eyeball Thumbnail" class ="thumbs">
+      <img src="img/portThumbs/techliveshere-500x500.jpg" alt="Eyeball Thumbnail" class ="thumbs bottomRow">
     </div>
     <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/smh-500x500.jpg" alt="SMH Thumbnail" class ="thumbs">
+      <img src="img/portThumbs/flex-500x500.jpg" alt="SMH Thumbnail" class ="thumbs bottomRow">
     </div>
   </div> <!-- end thumbrow 2-->
-
-<div class="thumbRow">
-  <div class="col-xs-6 col-md-4 portfolioPieces">
-    <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" class ="thumbs bottomRow">
-  </div>
-  <div class="col-xs-6 col-md-4 portfolioPieces">
-    <img src="img/portThumbs/eyeball-500x500.jpg" alt="Eyeball Thumbnail" class ="thumbs bottomRow">
-    </div>
-    <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/smh-500x500.jpg" alt="SMH Thumbnail" class ="thumbs bottomRow">
-    </div>
-  </div> <!--end thumbrow 3-->
 
 </div><!-- end all contents -->
     </div>
@@ -202,17 +198,18 @@
 
 
 <section class="contact container" id="contact">
-  <div class="col-md-4 col-md-push-1">
+  <div class="col-xs-12 col-md-4 col-md-push-1 contact-text">
     <h1>CONTACT</h1>
-    <p>Like what you see? Or just interested in getting to know more of my skills? I am always excited to work on new projects. I also love meeting new people, whether we meet over a coffee or a beer in the afternoon.<br>Please fill out my form beside if you have any project proposals or just want to meet up!</p>
+    <p>Like what you see? Or just interested in getting to know more of my skills? I am always excited to work on new projects. I also love meeting new people, whether we meet over a coffee or a beer in the afternoon.<br>Please fill out my form if you have any project proposals or just want to meet up!</p>
   </div>
-  <div class="col-md-7 col-md-push-1 contactForm">
+  <div class="col-xs-8 col-xs-push-2 col-md-7 col-md-push-1 contactForm">
     <form action="index.php" method="post">
        <label>NAME </label><input name="name" type="text" size="21" maxlength="30" />
       <br><label>EMAIL </label><input name="email" type="text" size="21" maxlength="30" />
        <br><label for="street" class="street">STREET </label><input class="street" name="street" type="text" size="21" maxlength="30" />
        <br><label for="message">MESSAGE </label><textarea name="message"></textarea>
-       <br><input class="submit" name="submit" type="submit" value="Send" />
+       <br>
+       <div class="col-xs-offset-10"><input class="submit" name="submit" type="submit" value="Send" /></div>
     </form>
   </div>
 </section>
