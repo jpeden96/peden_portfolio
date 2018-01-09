@@ -167,31 +167,89 @@
 
     <div class="row">
     <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-1 portContent thumbRow">
-      <div class="col-xs-6 col-md-4 portfolioPieces">
-        <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" class="thumbs">
+      <div class="col-xs-6 col-md-4 portfolioPieces column">
+        <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" onclick="openModal();currentSlide(1)" class="thumbs img-responsive hover-shadow">
       </div>
-      <div class="col-xs-6 col-md-4 portfolioPieces">
-        <img src="img/portThumbs/eyeball-500x500.jpg" alt="Eyeball Thumbnail" class ="thumbs" id="eyeball">
+      <div class="col-xs-6 col-md-4 portfolioPieces column">
+        <img src="img/portThumbs/eyeball-500x500.jpg" alt="Eyeball Thumbnail" onclick="openModal();currentSlide(2)" class ="thumbs img-responsive hover-shadow">
       </div>
-      <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/smh-500x500.jpg" alt="SMH Thumbnail" class ="thumbs" id="smh">
+      <div class="col-xs-6 col-md-4 portfolioPieces column">
+      <img src="img/portThumbs/smh-500x500.jpg" alt="SMH Thumbnail" onclick="openModal();currentSlide(3)" class ="thumbs img-responsive hover-shadow">
     </div>
 
   <div class="thumbRow">
-    <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/tc-500x500.jpg" alt="IMWell Thumbnail" class ="thumbs bottomRow">
+    <div class="col-xs-6 col-md-4 portfolioPieces column">
+      <img src="img/portThumbs/tc-500x500.jpg" alt="IMWell Thumbnail" onclick="openModal();currentSlide(4)" class ="thumbs bottomRow img-responsive hover-shadow">
     </div>
-    <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/techliveshere-500x500.jpg" alt="Eyeball Thumbnail" class ="thumbs bottomRow">
+    <div class="col-xs-6 col-md-4 portfolioPieces column">
+      <img src="img/portThumbs/techliveshere-500x500.jpg" alt="Eyeball Thumbnail" onclick="openModal();currentSlide(5)" class ="thumbs bottomRow img-responsive hover-shadow">
     </div>
-    <div class="col-xs-6 col-md-4 portfolioPieces">
-      <img src="img/portThumbs/flex-500x500.jpg" alt="SMH Thumbnail" class ="thumbs bottomRow">
+    <div class="col-xs-6 col-md-4 portfolioPieces column">
+      <img src="img/portThumbs/flex-500x500.jpg" alt="SMH Thumbnail" onclick="openModal();currentSlide(6)" class ="thumbs bottomRow img-responsive hover-shadow">
     </div>
   </div> <!-- end thumbrow 2-->
-<!-- -->
 </div><!-- end all contents -->
     </div>
 
+    <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/portfolio/piece1-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/portfolio/piece2-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/portfolio/piece3-1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/portfolio/piece4-1.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/imwell-500x500.jpg" onclick="currentSlide(1)" alt="I.M. Well Poster Campaign">
+    </div>
+
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/smh-500x500.jpg" onclick="currentSlide(2)" alt="Saugeen-Maitland Hall">
+    </div>
+
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/eyeball-500x500.jpg" onclick="currentSlide(3)" alt="Personal Projects">
+    </div>
+
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/tc-500x500.jpg" onclick="currentSlide(4)" alt="TC 1972">
+    </div>
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/flex-500x500.jpg" onclick="currentSlide(4)" alt="Flex">
+    </div>
+    <div class="column">
+      <img class="thumb" src="img/portThumbs/techliveshere-500x500.jpg" onclick="currentSlide(4)" alt="Tech Lives Here">
+    </div>
+
+  </div>
+</div>
 
 </div>
 </section>
@@ -217,8 +275,9 @@
 
 
 <script src="jquery/jquery.min.js"></script>
-<script src="js/pagescroll.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/lightbox.js"></script>
+<script src="js/pagescroll.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     </body>
 </html>
