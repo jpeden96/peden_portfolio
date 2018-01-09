@@ -70,10 +70,9 @@
       <section class="container header" id="home">
         <div class="gradient">
         <div class="row">
-          <div class="col-sm-5 header-overlay">
-            <img src="img/jpg-logo.png" alt="JPG Logo" id="header-logo">
-            <h2>JULIA PEDEN GRAPHICS</h2>
-            <h3>Print & Digital Design</h3>
+          <div class="col-xs-10 col-xs-push-1 col-sm-5 col-sm-push-0 header-overlay">
+            <img src="img/jpg-logo.png" alt="JPG Logo" id="header-logo" class="img-responsive">
+            <img src="img/juliapedengraphics.png" alt="Julia Peden Graphics" class="jpg img-responsive">
           </div><!--end col-sm-5-->
         </div> <!--end .row-->
       </div>

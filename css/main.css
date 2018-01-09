@@ -67,8 +67,6 @@ h3 {
 #logo {
   height: 100px;
 }
-
-
 .header {
     position: absolute;
   background: url('../img/header-img.jpg') no-repeat center center;
@@ -76,7 +74,7 @@ h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    height: 100%;
+    height: inherit;
     width: 100%;
     left:0;
     right: 0;
@@ -90,11 +88,19 @@ h3 {
 {
   background: rgb(25, 25, 25, .8);
   background: rgba(25, 25, 25, .8);
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
   padding-top: 100px;
   position: absolute;
   z-index: 100;
+}
+@media screen and (min-width: 768px) {
 
+  }
+.jpg {
+  height: 100%;
+  width: 100%;
 }
 
 #home {
