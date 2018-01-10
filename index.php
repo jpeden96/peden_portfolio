@@ -5,21 +5,21 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $street = $_POST['street'];
+    $number = $_POST['number'];
     $direct = 'thankyou.php';
   //  echo $name;
     //echo $email;
     //echo $message;
-    //echo $street;
+    //echo $number;
 
     if($street === "") {
       $sendMail = submitMessage($name, $email, $message,$direct);
-      //echo "street is empty";
+      echo "phone number is empty";
     }
   }
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -32,7 +32,7 @@
       <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
 
@@ -67,16 +67,30 @@
     </section><!--end class container-->
 
 
-      <section class="container header" id="home">
+      <!-- <section class="container header" id="home">
         <div class="gradient">
         <div class="row">
           <div class="col-xs-10 col-xs-push-1 col-sm-5 col-sm-push-0 header-overlay">
             <img src="img/jpg-logo.png" alt="JPG Logo" id="header-logo" class="img-responsive">
             <img src="img/juliapedengraphics.png" alt="Julia Peden Graphics" class="jpg img-responsive">
-          </div><!--end col-sm-5-->
-        </div> <!--end .row-->
+          </div>
+        </div>
       </div>
-      </section> <!--end container-->
+    </section> --> <!--end container-->
+
+      <section class="header1" id="home">
+        <div class="row">
+          <div class="col-xs-10 col-xs-push-1 col-sm-5 col-sm-push-0 header-overlay1">
+            <img src="img/jpg-logo.png" alt="JPG Logo" id="header-logo1" class="img-responsive">
+            <img src="img/juliapedengraphics.png" alt="Julia Peden Graphics" class="img-responsive">
+          </div>
+
+          <div class="gradient1">
+          </div>
+          <div class="headerbg">
+          </div>
+        </div>
+      </section>
 <section class="about container" id="about">
       <!--<div class="container"> -->
 
@@ -90,7 +104,7 @@
 
           <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 aboutText">
             <h1 class="hidden-xs hidden-sm">ABOUT</h1><br>
-            <p>Welcome to my online portfolio.</p><p>My name is Julia Peden. I am a graphic designer and motion artist. I started off as a visual artist and used those skills to transition into a digital platform. I study Media, Information, and Technoculture at Western University which provides me with a strong theoretical background on the industry of media and technology. I also study Interactive Media Design at Fanshawe College which teaches me hands-on skills required for graphic and motion design. I hope you enjoy going through my portfolio!</p>
+            <p>Welcome to my online portfolio.</p><p>My name is Julia Peden. I am a graphic designer and motion artist. I started off as a visual artist and used those skills to transition into a digital platform. I study Media, Information, and Technoculture at Western University which provides me with a strong theoretical background on the industry of media and technology. I also study Interactive Media Design at Fanshawe College which teaches me hands-on skills required for graphic and motion design.</p><p>I hope you enjoy looking through my portfolio!</p>
 
             <h1 class="subHeader">INTERESTS</h1> <br>
 
@@ -125,7 +139,7 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-4" id="whiteOverlay">
+    <div class="col-xs-10 col-xs-push-1 col-md-7 col-md-push-4" id="whiteOverlay">
 
       <div class="row topSkills">
       <div class="col-xs-6 skillsItems">
@@ -165,94 +179,20 @@
 </div>
 
     <div class="row">
-    <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-1 portContent thumbRow">
-      <div class="col-xs-6 col-md-4 portfolioPieces column">
-        <img src="img/portThumbs/imwell-500x500.jpg" alt="IMWell Thumbnail" onclick="openModal();currentSlide(1)" class="thumbs img-responsive hover-shadow">
-      </div>
-      <div class="col-xs-6 col-md-4 portfolioPieces column">
-        <img src="img/portThumbs/eyeball-500x500.jpg" alt="Eyeball Thumbnail" onclick="openModal();currentSlide(2)" class ="thumbs img-responsive hover-shadow">
-      </div>
-      <div class="col-xs-6 col-md-4 portfolioPieces column">
-      <img src="img/portThumbs/smh-500x500.jpg" alt="SMH Thumbnail" onclick="openModal();currentSlide(3)" class ="thumbs img-responsive hover-shadow">
+    <div id="portfolioContainer" class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-1 portContent thumbRow"></div><!-- end all contents -->
     </div>
 
-  <div class="thumbRow">
-    <div class="col-xs-6 col-md-4 portfolioPieces column">
-      <img src="img/portThumbs/tc-500x500.jpg" alt="IMWell Thumbnail" onclick="openModal();currentSlide(4)" class ="thumbs bottomRow img-responsive hover-shadow">
+    <div id="lightbox" class="hidden">
+      <div class="close">X</div>
+      <img src="#" alt="#" class="top">
+      <div class="carousel"></div>
+      <h2 class="name">name</h2>
+      <h3 class="year">year</h3>
+      <p class="desc">desc</p>
     </div>
-    <div class="col-xs-6 col-md-4 portfolioPieces column">
-      <img src="img/portThumbs/techliveshere-500x500.jpg" alt="Eyeball Thumbnail" onclick="openModal();currentSlide(5)" class ="thumbs bottomRow img-responsive hover-shadow">
-    </div>
-    <div class="col-xs-6 col-md-4 portfolioPieces column">
-      <img src="img/portThumbs/flex-500x500.jpg" alt="SMH Thumbnail" onclick="openModal();currentSlide(6)" class ="thumbs bottomRow img-responsive hover-shadow">
-    </div>
-  </div> <!-- end thumbrow 2-->
-</div><!-- end all contents -->
-    </div>
-
-    <!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="img/portfolio/piece1-1.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="img/portfolio/piece2-1.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="img/portfolio/piece3-1.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="img/portfolio/piece4-1.jpg" style="width:100%">
-    </div>
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <!-- Caption text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <!-- Thumbnail image controls -->
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/imwell-500x500.jpg" onclick="currentSlide(1)" alt="I.M. Well Poster Campaign">
-    </div>
-
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/smh-500x500.jpg" onclick="currentSlide(2)" alt="Saugeen-Maitland Hall">
-    </div>
-
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/eyeball-500x500.jpg" onclick="currentSlide(3)" alt="Personal Projects">
-    </div>
-
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/tc-500x500.jpg" onclick="currentSlide(4)" alt="TC 1972">
-    </div>
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/flex-500x500.jpg" onclick="currentSlide(4)" alt="Flex">
-    </div>
-    <div class="column">
-      <img class="thumb" src="img/portThumbs/techliveshere-500x500.jpg" onclick="currentSlide(4)" alt="Tech Lives Here">
-    </div>
-
-  </div>
-</div>
 
 </div>
 </section>
-
 
 <section class="contact container" id="contact">
   <div class="col-xs-12 col-md-4 col-md-push-1 contact-text">
@@ -263,14 +203,13 @@
     <form action="index.php" method="post">
        <label>NAME </label><input name="name" type="text" size="21" maxlength="30" />
       <br><label>EMAIL </label><input name="email" type="text" size="21" maxlength="30" />
-       <br><label for="street" class="street">STREET </label><input class="street" name="street" type="text" size="21" maxlength="30" />
+       <br><label for="number" class="number">PHONE NUMBER </label><input class="number" name="number" type="text" size="21" maxlength="30" />
        <br><label for="message">MESSAGE </label><textarea name="message"></textarea>
        <br>
        <div class="col-xs-offset-10"><input class="submit" name="submit" type="submit" value="Send" /></div>
     </form>
   </div>
 </section>
-
 
 
 <script src="jquery/jquery.min.js"></script>
