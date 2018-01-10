@@ -32,8 +32,8 @@
       <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
 
 
   </head>
@@ -128,13 +128,30 @@
         </div>
     <!-- </div> -->
   </section>
+<!-- attempting to fix the skills section
+  <section class="skills1" id="skills">
+    <div class="row">
+      <div class="col-xs-12 col-md-5 skillsOverlay1">
+      <div class="col-md-6 col-md-push-2 skillsText1">
+        <h1>SKILLS</h1>
+        <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p>
+    </div>
+  </div>
+
+      <div class="gradient1">
+      </div>
+      <div class="headerbg">
+      </div>
+    </div>
+  </section> -->
+
 <section class="skills container" id="skills">
 <div class="bgGradient">
   <div class="row">
     <div class="col-xs-12 col-md-5 skillsOverlay">
     <div class="col-md-6 col-md-push-2 skillsText">
       <h1>SKILLS</h1>
-      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas, Branding, Marketing, Design, and Motion. </p>
+      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p>
   </div>
 </div>
 </div>
@@ -145,7 +162,7 @@
       <div class="col-xs-6 skillsItems">
         <img src="img/branding.png" alt="Branding Icon" class="thumb">
         <h3>BRANDING</h3>
-        <ul><li>Brand Style Guide</li><li>Event & Initiative Branding</li><li>Brand Development</li></ul>
+        <ul><li>Brand Style Guide</li><li>Event & Initiative Proposals</li><li>Brand Development</li></ul>
       </div>
       <div class="col-xs-6 skillsItems">
         <img src="img/marketing.png" alt="Marketing Icon" class="thumb">
@@ -175,7 +192,7 @@
   <div class="row">
     <div class="col-sm-12 col-md-4 col-md-push-1">
       <h1>PORTFOLIO</h1>
-      <p>Take a look at some of my work. You’ll find some of my best branding style guides, logo designs, print designs, social media strategies, and animation videos.</p>
+      <p>Take a look at some of my projects. You’ll find some of my best branding style guides, logo designs, print designs, social media strategies, and live-action or animation videos.</p>
 </div>
 
     <div class="row">

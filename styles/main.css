@@ -29,21 +29,20 @@ h3 {
   font-family: 'Oswald', sans-serif;
 }
 .navbar-header {
-  background: rgb(25, 25, 25, .3);
-  background: rgba(25, 25, 25, .3);
+  background-color: black;
   padding: 20px;
+  border: 1px solid black !important;
 }
 
 .navbar-collapse {
-  background: rgb(25, 25, 25, .3);
-  background: rgba(25, 25, 25, .3);
+  background-color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #8e51a0;
+  background-color: #f4783d;
 }
 
 #mainNav ul {
@@ -55,14 +54,18 @@ h3 {
   /*line-height: 60px; */
 }
 
-/*@media screen and (min-width: 768px)  {*/
+#mainNav ul li:hover {
+  color: #f4783d;
+}
+
+@media screen and (min-width: 768px) {
   #mainNav ul li a {
     line-height: 60px;
   }
 }
 
 #mainNav ul li a:hover {
-  color: #8e51a0;
+  color: #a1a2a3;
 }
 
 #logo {

@@ -1,11 +1,11 @@
 var lightbox = {
-  json:null, // the json property of this js object, ligthbox
+  json:null, // the json property of this js object, lightbox
   lightboxContainer : document.querySelector('#lightbox'),
   closeButton : document.querySelector('#lightbox .close'),
   init:function(){
     console.log("init");
     lightbox.getPortfolioPieces();
-    lightbox.closeButton.addEventListener('click',lightbox.close,false); // add the close click event to the ligthbox
+    lightbox.closeButton.addEventListener('click',lightbox.close,false); // add the close click event to the lightbox
   },
   close:function(){
     let carousel = lightbox.lightboxContainer.querySelector('.carousel');
