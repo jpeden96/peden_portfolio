@@ -1,9 +1,9 @@
 <?php
 // This file will connect us to the database.
-$user = "root";
-$pass = "root";
+$user = "juliapeden";
+$pass = "Glasgow69";
 $url = "localhost";
-$db = "db_portfolio";
+$db = "peden_portfolio";
 
 $link = mysqli_connect($url, $user, $pass, $db, "8888");
 

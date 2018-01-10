@@ -35,7 +35,6 @@
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
 
-
   </head>
   <body>
 
@@ -128,22 +127,6 @@
         </div>
     <!-- </div> -->
   </section>
-<!-- attempting to fix the skills section
-  <section class="skills1" id="skills">
-    <div class="row">
-      <div class="col-xs-12 col-md-5 skillsOverlay1">
-      <div class="col-md-6 col-md-push-2 skillsText1">
-        <h1>SKILLS</h1>
-        <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p>
-    </div>
-  </div>
-
-      <div class="gradient1">
-      </div>
-      <div class="headerbg">
-      </div>
-    </div>
-  </section> -->
 
 <section class="skills container" id="skills">
 <div class="bgGradient">
@@ -151,7 +134,7 @@
     <div class="col-xs-12 col-md-5 skillsOverlay">
     <div class="col-md-6 col-md-push-2 skillsText">
       <h1>SKILLS</h1>
-      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p>
+      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p> <p>Take a look at some of my strengths within each field.</p>
   </div>
 </div>
 </div>

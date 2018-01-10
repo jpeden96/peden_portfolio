@@ -25,24 +25,28 @@ h1 {
   margin-bottom: 30px;
 }
 
+span {
+  color: #8e51a0;
+}
 h3 {
   font-family: 'Oswald', sans-serif;
 }
 .navbar-header {
-  background-color: black;
+  background: rgb(25, 25, 25, .3);
+  background: rgba(25, 25, 25, .3);
   padding: 20px;
-  border: 1px solid black !important;
 }
 
 .navbar-collapse {
-  background-color: black;
+  background: rgb(25, 25, 25, .3);
+  background: rgba(25, 25, 25, .3);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #f4783d;
+  background-color: #8e51a0;
 }
 
 #mainNav ul {
@@ -54,18 +58,14 @@ h3 {
   /*line-height: 60px; */
 }
 
-#mainNav ul li:hover {
-  color: #f4783d;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
   #mainNav ul li a {
     line-height: 60px;
   }
 }
 
 #mainNav ul li a:hover {
-  color: #a1a2a3;
+  color: #8e51a0;
 }
 
 #logo {
@@ -78,7 +78,7 @@ h3 {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
-  padding-top: 150px;
+  padding-top: 120px;
   position: relative;
   z-index: 100;
   height: auto;
@@ -142,7 +142,7 @@ background-size: cover;
   opacity: .4;
   z-index: 1;
 }
-
+/*
 .header {
     position: absolute;
   background: url('../img/header-img.jpg') no-repeat center center;
@@ -170,13 +170,13 @@ background-size: cover;
   padding-top: 100px;
   position: absolute;
   z-index: 100;
-}
-@media screen and (min-width: 768px) {
+} */
+/*@media screen and (min-width: 768px) { */
 
-  }
+
 .jpg {
-  height: 100%;
-  width: 100%;
+  height: 60%;
+  width: auto;
 }
 
 #home {
@@ -239,7 +239,6 @@ background-size: 1800% 1800%;
   }
   }
 
-
 .aboutText
 {
   z-index: 999;
@@ -263,8 +262,6 @@ background-size: 1800% 1800%;
 .subHeader {
   margin-bottom: 10px;
 }
-
-
 .skills {
   background: url('../img/skills-bg-complete.jpg') no-repeat center center;
   /*content: ' ';
@@ -291,30 +288,27 @@ background-size: 1800% 1800%;
 }
 
 @media screen and (min-width: 992px) {
-  .skillsOverlay{
-    position: absolute;
-  }
-
   .skills {
-    height: inherit;
     padding: 0px;
     }
     #whiteOverlay {
-      position: absolute;
       margin-top: 40px;
         background: rgb(250, 250, 250, .8);
         background: rgba(250, 250, 250, .8);
+        margin-bottom:    40px;
     }
     .skillsOverlay{
         background: rgb(25, 25, 25, .8);
         background: rgba(25, 25, 25, .8);
-        margin-bottom: 0px;
+        padding-bottom: 400px;
+        position: absolute;
+        height: auto;
     }
+
   }
 
 .skillsOverlay
 {
-  height: inherit;
   margin-bottom: 10px;
 }
 #whiteOverlay
@@ -331,16 +325,19 @@ background-size: 1800% 1800%;
 
 .skillsItems
 {
-  text-align: center;
+  text-align:    center;
 }
-
 .skills ul li{
   font-family: 'Merriweather', sans-serf;
   color: black;
   padding-top: 5px;
-  font-size: 1.05em;
+  font-size:    1em;
+  list-style-type: none;
+  text-align: center;
 }
-
+.skills ul {
+  padding-left: 0px !important;
+}
 .portfolio {
   background-color: white;
   width: 100%;
@@ -378,6 +375,7 @@ background-size: 1800% 1800%;
   font-size: 4rem;
   font-family: arial, serif;
   color:#fff;
+  z-index:    4000;
 }
 #lightbox p {
   color:inherit;
@@ -396,6 +394,9 @@ background-size: 1800% 1800%;
   margin:  0 auto;
 }
 
+#lightbox .video{
+  max-height: 400px;
+}
 /* The Modal (background) */
 /*.modal {
   display: none;
@@ -528,6 +529,10 @@ input, textarea {
   background-color: white;
   color: black;
   width: 100px;
+}
+
+.submit:hover {
+  background-color:    #8e51a0;
 }
 .number {
   display: none;
