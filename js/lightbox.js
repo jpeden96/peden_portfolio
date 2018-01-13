@@ -10,7 +10,7 @@ var lightbox = {
   close:function(){
     let carousel = lightbox.lightboxContainer.querySelector('.carousel');
     carousel.innerHTML = ""; // erase everything inside carousel
-    lightbox.lightboxContainer.classList.add('hidden'); // re-hide the ligthbox
+    lightbox.lightboxContainer.classList.add('hidden'); // re-hide the lightbox
   },
   getPortfolioPieces:function(){
     const url = "admin/scripts/getportfolio.php"; // the url of what we want

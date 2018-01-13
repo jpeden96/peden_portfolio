@@ -12,8 +12,8 @@
     //echo $message;
     //echo $number;
 
-    if($street === "") {
-      $sendMail = submitMessage($name, $email, $message,$direct);
+    if($number === "") {
+      $sendMail = submitMessage($name, $email, $message, $direct);
       echo "phone number is empty";
     }
   }
