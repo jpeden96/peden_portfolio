@@ -127,7 +127,6 @@
         </div>
     <!-- </div> -->
   </section>
-<<<<<<< HEAD
 <section class="skills container" id="skills">
 <!-- <div class="container bgGradient"> -->
   <div class="row">
@@ -135,7 +134,6 @@
     <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-2 skillsText">
       <h1>SKILLS</h1>
       <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas, Branding, Marketing, Design, and Motion. </p>
-=======
 
 <section class="skills container" id="skills">
 <div class="bgGradient">
@@ -144,7 +142,6 @@
     <div class="col-md-6 col-md-push-2 skillsText">
       <h1>SKILLS</h1>
       <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p> <p>Take a look at some of my strengths within each field.</p>
->>>>>>> dev.jp.lighbox
   </div>
 </div>
 </div>
