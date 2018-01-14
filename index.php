@@ -127,56 +127,49 @@
         </div>
     <!-- </div> -->
   </section>
-<section class="skills container" id="skills">
-<!-- <div class="container bgGradient"> -->
-  <div class="row">
-    <div class="col-xs-12 col-md-5 skillsOverlay">
-    <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-2 skillsText">
-      <h1>SKILLS</h1>
-      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas, Branding, Marketing, Design, and Motion. </p>
 
-<section class="skills container" id="skills">
-<div class="bgGradient">
-  <div class="row">
-    <div class="col-xs-12 col-md-5 skillsOverlay">
-    <div class="col-md-6 col-md-push-2 skillsText">
-      <h1>SKILLS</h1>
-      <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p> <p>Take a look at some of my strengths within each field.</p>
-  </div>
-</div>
-</div>
-<div class="row">
-    <div class="col-xs-10 col-xs-push-1 col-md-7 col-md-push-4" id="whiteOverlay">
-
-      <div class="row topSkills">
-      <div class="col-xs-6 skillsItems">
-        <img src="img/branding.png" alt="Branding Icon" class="thumb">
-        <h3>BRANDING</h3>
-        <ul><li>Brand Style Guide</li><li>Event & Initiative Proposals</li><li>Brand Development</li></ul>
-      </div>
-      <div class="col-xs-6 skillsItems">
-        <img src="img/marketing.png" alt="Marketing Icon" class="thumb">
-        <h3>MARKETING</h3>
-        <ul><li>Social Media Strategies</li><li>Print & Web Advertising</li><li>Campaign Planning</li></ul>
-      </div>
-    </div>
-
+  <section class="skills container" id="skills">
+  <div class="bgGradient">
     <div class="row">
-      <div class="col-xs-6 skillsItems">
-        <img src="img/design.png" alt="Design Icon" class="thumb">
-        <h3>DESIGN</h3>
-        <ul><li>Logo Design</li><li>Illustrations</li><li>Print & Web Design</li></ul>
-      </div>
-      <div class="col-sm-6 skillsItems">
-        <img src="img/motion.png" alt="Motion Icon" class="thumb">
-        <h3>MOTION</h3>
-        <ul><li>Live Action Videos</li><li>Typographic Animations</li><li>2D Animations</li></ul>
-      </div>
-    </div>
+      <div class="col-xs-12 col-md-5 skillsOverlay">
+      <div class="col-md-6 col-md-push-2 skillsText">
+        <h1>SKILLS</h1>
+        <p>Over the years, I have collected a variety skills surrounding graphic and motion design. I focus on four main areas: Branding, Marketing, Design, and Motion. </p> <p>Take a look at some of my strengths within each field.</p>
     </div>
   </div>
   </div>
-</section>
+  <div class="row">
+      <div class="col-xs-10 col-xs-push-1 col-md-7 col-md-push-4" id="whiteOverlay">
+
+        <div class="row topSkills">
+        <div class="col-xs-6 skillsItems">
+          <img src="img/branding.png" alt="Branding Icon" class="thumb">
+          <h3>BRANDING</h3>
+          <ul><li>Brand Style Guide</li><li>Event & Initiative Proposals</li><li>Brand Development</li></ul>
+        </div>
+        <div class="col-xs-6 skillsItems">
+          <img src="img/marketing.png" alt="Marketing Icon" class="thumb">
+          <h3>MARKETING</h3>
+          <ul><li>Social Media Strategies</li><li>Print & Web Advertising</li><li>Campaign Planning</li></ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6 skillsItems">
+          <img src="img/design.png" alt="Design Icon" class="thumb">
+          <h3>DESIGN</h3>
+          <ul><li>Logo Design</li><li>Illustrations</li><li>Print & Web Design</li></ul>
+        </div>
+        <div class="col-sm-6 skillsItems">
+          <img src="img/motion.png" alt="Motion Icon" class="thumb">
+          <h3>MOTION</h3>
+          <ul><li>Live Action Videos</li><li>Typographic Animations</li><li>2D Animations</li></ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
 <section class="portfolio container" id="portfolio">
   <div class="row">

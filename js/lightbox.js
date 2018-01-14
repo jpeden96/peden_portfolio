@@ -63,6 +63,7 @@ var lightbox = {
                 let carousel = lightbox.lightboxContainer.querySelector('.carousel');
                 pieceContent.forEach(function(element,index){
                   let lrgImage = document.createElement('img');
+                    //video.classList.add('hidden'); //trying to make the video close after being clicked
                   lrgImage.src = element.images_path;
                   lrgImage.classList.add('lrgImage');
                   lrgImage.addEventListener('click', function(){
@@ -70,6 +71,7 @@ var lightbox = {
                       mainImg.classList.add('hidden');
                       let video = document.createElement('video');
                       video.controls = true;
+                      //window.open("img/portfolio/videos/"+element.images_id+"-video.mp4"); //seeing if opening a new box will fix the problem ...
                       video.src = "img/portfolio/videos/"+element.images_id+"-video.mp4"
                       //video.src = element.images_path;
                       lightbox.lightboxContainer.insertBefore(video,mainImg);
